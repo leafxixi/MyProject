@@ -1,0 +1,98 @@
+2018-07-22T03:25:12.921Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-22T03:25:12.925Z - normal: checking language setting...
+2018-07-22T03:25:12.926Z - normal: Language: zh
+2018-07-22T03:25:14.664Z - success: protocol editor-framework registered
+2018-07-22T03:25:14.664Z - success: protocol app registered
+2018-07-22T03:25:14.665Z - success: protocol theme registered
+2018-07-22T03:25:14.665Z - success: protocol packages registered
+2018-07-22T03:25:14.665Z - success: protocol unpack registerred
+2018-07-22T03:25:14.665Z - success: protocol disable-commonjs registerred
+2018-07-22T03:25:15.103Z - normal: connected!
+2018-07-22T03:25:15.104Z - normal: Check project H:\GitHub\MyProject
+2018-07-22T03:25:15.106Z - normal: Initializing Cocos2d
+2018-07-22T03:25:15.325Z - normal: Initializing Asset Database
+2018-07-22T03:25:15.360Z - success: protocol uuid registerred
+2018-07-22T03:25:15.360Z - success: protocol db registerred
+2018-07-22T03:25:15.360Z - success: protocol thumbnail registerred
+2018-07-22T03:25:15.360Z - normal: Loading editor/builtin packages
+2018-07-22T03:25:15.379Z - success: anysdk loaded
+2018-07-22T03:25:15.495Z - success: assets loaded
+2018-07-22T03:25:15.497Z - success: builder loaded
+2018-07-22T03:25:15.499Z - success: cocos-analytics loaded
+2018-07-22T03:25:15.501Z - success: console loaded
+2018-07-22T03:25:15.540Z - success: fb-instant-games loaded
+2018-07-22T03:25:15.542Z - success: hierarchy loaded
+2018-07-22T03:25:15.544Z - success: inspector loaded
+2018-07-22T03:25:15.546Z - success: keystore loaded
+2018-07-22T03:25:15.548Z - success: node-library loaded
+2018-07-22T03:25:15.550Z - success: package-asset loaded
+2018-07-22T03:25:15.552Z - success: preferences loaded
+2018-07-22T03:25:15.553Z - success: project-exporter loaded
+2018-07-22T03:25:15.567Z - success: project-importer loaded
+2018-07-22T03:25:15.570Z - success: project-settings loaded
+2018-07-22T03:25:15.571Z - success: ui-kit loaded
+2018-07-22T03:25:15.572Z - success: ui-grid loaded
+2018-07-22T03:25:15.575Z - success: scene loaded
+2018-07-22T03:25:15.576Z - success: sprite-editor loaded
+2018-07-22T03:25:15.578Z - success: store loaded
+2018-07-22T03:25:15.582Z - success: timeline loaded
+2018-07-22T03:25:15.582Z - normal: Loading builtin packages
+2018-07-22T03:25:15.584Z - success: asset-db-debugger loaded
+2018-07-22T03:25:15.585Z - success: code-editor loaded
+2018-07-22T03:25:15.585Z - success: color-picker loaded
+2018-07-22T03:25:15.588Z - success: package-manager loaded
+2018-07-22T03:25:15.592Z - success: sdkbox loaded
+2018-07-22T03:25:15.594Z - success: tester loaded
+2018-07-22T03:25:15.595Z - success: ui-kit-preview-extra loaded
+2018-07-22T03:25:15.596Z - success: ui-kit-preview loaded
+2018-07-22T03:25:15.599Z - success: ui-tree loaded
+2018-07-22T03:25:16.667Z - normal: Initializing project H:\GitHub\MyProject
+2018-07-22T03:25:16.675Z - normal: Loading packages
+2018-07-22T03:25:16.678Z - normal: Watching packages
+2018-07-22T03:25:16.689Z - normal: Run Application
+2018-07-22T03:25:17.945Z - success: preview server running at http://localhost:7458
+2018-07-22T03:25:22.045Z - normal: 1.9.1
+2018-07-22T03:31:50.792Z - warn: The Label referenced by component "HelloWorld" is invalid. Detailed information:
+Node path: "Canvas"
+
+2018-07-22T09:18:38.212Z - warn: The Asset used by component "cc.Sprite" is missing. Detailed information:
+Node path: "cocos"
+Missing uuid: "31bc895a-c003-4566-a9f3-2e54ae1c17dc"
+
+2018-07-22T09:19:25.906Z - failed: load script [gesture] failed : Error: Cannot find module 'gesture'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (H:\CocosCreator\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (H:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (H:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:967)
+    at H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:1:361
+    at __define (H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:7:24)
+    at H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:93:13
+2018-07-22T09:19:25.907Z - failed: load script [H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js] failed : TypeError: DollarRecognizer is not a constructor
+    at __define (H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:8:15)
+    at H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:93:13
+    at Object.<anonymous> (H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:100:11)
+    at Object.<anonymous> (H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:103:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-07-22T09:21:19.371Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
+Class ID: "280c3rsZJJKnZ9RqbALVwtK"
+
+2018-07-22T09:21:19.375Z - warn: The Label referenced by component "cc.MissingScript" is invalid. Detailed information:
+Node path: "Canvas"
+
+2018-07-22T09:21:51.346Z - warn: Script attached to "Canvas" in scene "mainScene.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scene/mainScene.fire"
+Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
+Class ID: "280c3rsZJJKnZ9RqbALVwtK"
+
+2018-07-22T10:14:06.906Z - info: shutdown preview server
