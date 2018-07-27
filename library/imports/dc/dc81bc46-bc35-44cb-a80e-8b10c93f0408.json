@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_frame_yellow",
+    "texture": "4aa48798-7126-473c-a61f-4bec5896d144",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      99,
+      100
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      102,
+      102
+    ]
+  }
+}

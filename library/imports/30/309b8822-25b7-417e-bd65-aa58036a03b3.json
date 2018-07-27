@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_frame_purple",
+    "texture": "a49e9895-ef0a-418f-8fe5-0f4cea02fb5c",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      99,
+      100
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      102,
+      102
+    ]
+  }
+}

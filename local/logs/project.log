@@ -1,98 +1,370 @@
-2018-07-22T03:25:12.921Z - normal: Load ~/.CocosCreator/settings.json
-2018-07-22T03:25:12.925Z - normal: checking language setting...
-2018-07-22T03:25:12.926Z - normal: Language: zh
-2018-07-22T03:25:14.664Z - success: protocol editor-framework registered
-2018-07-22T03:25:14.664Z - success: protocol app registered
-2018-07-22T03:25:14.665Z - success: protocol theme registered
-2018-07-22T03:25:14.665Z - success: protocol packages registered
-2018-07-22T03:25:14.665Z - success: protocol unpack registerred
-2018-07-22T03:25:14.665Z - success: protocol disable-commonjs registerred
-2018-07-22T03:25:15.103Z - normal: connected!
-2018-07-22T03:25:15.104Z - normal: Check project H:\GitHub\MyProject
-2018-07-22T03:25:15.106Z - normal: Initializing Cocos2d
-2018-07-22T03:25:15.325Z - normal: Initializing Asset Database
-2018-07-22T03:25:15.360Z - success: protocol uuid registerred
-2018-07-22T03:25:15.360Z - success: protocol db registerred
-2018-07-22T03:25:15.360Z - success: protocol thumbnail registerred
-2018-07-22T03:25:15.360Z - normal: Loading editor/builtin packages
-2018-07-22T03:25:15.379Z - success: anysdk loaded
-2018-07-22T03:25:15.495Z - success: assets loaded
-2018-07-22T03:25:15.497Z - success: builder loaded
-2018-07-22T03:25:15.499Z - success: cocos-analytics loaded
-2018-07-22T03:25:15.501Z - success: console loaded
-2018-07-22T03:25:15.540Z - success: fb-instant-games loaded
-2018-07-22T03:25:15.542Z - success: hierarchy loaded
-2018-07-22T03:25:15.544Z - success: inspector loaded
-2018-07-22T03:25:15.546Z - success: keystore loaded
-2018-07-22T03:25:15.548Z - success: node-library loaded
-2018-07-22T03:25:15.550Z - success: package-asset loaded
-2018-07-22T03:25:15.552Z - success: preferences loaded
-2018-07-22T03:25:15.553Z - success: project-exporter loaded
-2018-07-22T03:25:15.567Z - success: project-importer loaded
-2018-07-22T03:25:15.570Z - success: project-settings loaded
-2018-07-22T03:25:15.571Z - success: ui-kit loaded
-2018-07-22T03:25:15.572Z - success: ui-grid loaded
-2018-07-22T03:25:15.575Z - success: scene loaded
-2018-07-22T03:25:15.576Z - success: sprite-editor loaded
-2018-07-22T03:25:15.578Z - success: store loaded
-2018-07-22T03:25:15.582Z - success: timeline loaded
-2018-07-22T03:25:15.582Z - normal: Loading builtin packages
-2018-07-22T03:25:15.584Z - success: asset-db-debugger loaded
-2018-07-22T03:25:15.585Z - success: code-editor loaded
-2018-07-22T03:25:15.585Z - success: color-picker loaded
-2018-07-22T03:25:15.588Z - success: package-manager loaded
-2018-07-22T03:25:15.592Z - success: sdkbox loaded
-2018-07-22T03:25:15.594Z - success: tester loaded
-2018-07-22T03:25:15.595Z - success: ui-kit-preview-extra loaded
-2018-07-22T03:25:15.596Z - success: ui-kit-preview loaded
-2018-07-22T03:25:15.599Z - success: ui-tree loaded
-2018-07-22T03:25:16.667Z - normal: Initializing project H:\GitHub\MyProject
-2018-07-22T03:25:16.675Z - normal: Loading packages
-2018-07-22T03:25:16.678Z - normal: Watching packages
-2018-07-22T03:25:16.689Z - normal: Run Application
-2018-07-22T03:25:17.945Z - success: preview server running at http://localhost:7458
-2018-07-22T03:25:22.045Z - normal: 1.9.1
-2018-07-22T03:31:50.792Z - warn: The Label referenced by component "HelloWorld" is invalid. Detailed information:
-Node path: "Canvas"
-
-2018-07-22T09:18:38.212Z - warn: The Asset used by component "cc.Sprite" is missing. Detailed information:
-Node path: "cocos"
-Missing uuid: "31bc895a-c003-4566-a9f3-2e54ae1c17dc"
-
-2018-07-22T09:19:25.906Z - failed: load script [gesture] failed : Error: Cannot find module 'gesture'
+2018-07-27T02:00:57.707Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-27T02:00:57.716Z - normal: checking language setting...
+2018-07-27T02:00:57.717Z - normal: Language: zh
+2018-07-27T02:01:02.411Z - success: protocol editor-framework registered
+2018-07-27T02:01:02.411Z - success: protocol app registered
+2018-07-27T02:01:02.411Z - success: protocol theme registered
+2018-07-27T02:01:02.411Z - success: protocol packages registered
+2018-07-27T02:01:02.411Z - success: protocol unpack registerred
+2018-07-27T02:01:02.411Z - success: protocol disable-commonjs registerred
+2018-07-27T02:01:02.516Z - normal: connected!
+2018-07-27T02:01:02.518Z - normal: Check project D:\GitHub\MyProject
+2018-07-27T02:01:02.521Z - normal: Initializing Cocos2d
+2018-07-27T02:01:04.547Z - normal: Initializing Asset Database
+2018-07-27T02:01:04.617Z - success: protocol uuid registerred
+2018-07-27T02:01:04.617Z - success: protocol db registerred
+2018-07-27T02:01:04.617Z - success: protocol thumbnail registerred
+2018-07-27T02:01:04.617Z - normal: Loading editor/builtin packages
+2018-07-27T02:01:04.714Z - success: anysdk loaded
+2018-07-27T02:01:04.911Z - success: assets loaded
+2018-07-27T02:01:04.914Z - success: builder loaded
+2018-07-27T02:01:04.917Z - success: cocos-analytics loaded
+2018-07-27T02:01:04.921Z - success: console loaded
+2018-07-27T02:01:04.963Z - success: fb-instant-games loaded
+2018-07-27T02:01:04.967Z - success: hierarchy loaded
+2018-07-27T02:01:04.971Z - success: inspector loaded
+2018-07-27T02:01:04.973Z - success: keystore loaded
+2018-07-27T02:01:04.977Z - success: node-library loaded
+2018-07-27T02:01:04.979Z - success: package-asset loaded
+2018-07-27T02:01:04.982Z - success: preferences loaded
+2018-07-27T02:01:04.984Z - success: project-exporter loaded
+2018-07-27T02:01:05.002Z - success: project-importer loaded
+2018-07-27T02:01:05.004Z - success: project-settings loaded
+2018-07-27T02:01:05.007Z - success: ui-kit loaded
+2018-07-27T02:01:05.012Z - success: ui-grid loaded
+2018-07-27T02:01:05.017Z - success: scene loaded
+2018-07-27T02:01:05.018Z - success: sprite-editor loaded
+2018-07-27T02:01:05.022Z - success: store loaded
+2018-07-27T02:01:05.028Z - success: timeline loaded
+2018-07-27T02:01:05.028Z - normal: Loading builtin packages
+2018-07-27T02:01:05.036Z - success: asset-db-debugger loaded
+2018-07-27T02:01:05.038Z - success: code-editor loaded
+2018-07-27T02:01:05.046Z - success: color-picker loaded
+2018-07-27T02:01:05.049Z - success: package-manager loaded
+2018-07-27T02:01:05.055Z - success: sdkbox loaded
+2018-07-27T02:01:05.059Z - success: tester loaded
+2018-07-27T02:01:05.061Z - success: ui-kit-preview-extra loaded
+2018-07-27T02:01:05.062Z - success: ui-kit-preview loaded
+2018-07-27T02:01:05.064Z - success: ui-tree loaded
+2018-07-27T02:01:07.292Z - normal: Initializing project D:\GitHub\MyProject
+2018-07-27T02:01:07.311Z - normal: Loading packages
+2018-07-27T02:01:07.321Z - normal: Watching packages
+2018-07-27T02:01:07.348Z - normal: Run Application
+2018-07-27T02:01:17.780Z - success: preview server running at http://localhost:7456
+2018-07-27T02:01:26.013Z - normal: 1.9.1
+2018-07-27T08:09:54.968Z - warn: [timeline] - update dump failed
+2018-07-27T08:09:54.976Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:52792
+2018-07-27T08:09:54.985Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:52794
+2018-07-27T08:14:20.058Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (16:8)
+  14 |         }
+  15 |         // 声明 Action_B 属性
+> 16 |         action_B: {
+     |         ^
+  17 |             default: null,
+  18 |             type: cc.Node
+  19 |         }
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T08:24:05.220Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (16:8)
+  14 |         }
+  15 |         // 声明 GestureAction_B 属性
+> 16 |         GestureAction_B: {
+     |         ^
+  17 |             default: null,
+  18 |             type: cc.Node
+  19 |         }
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T08:46:01.361Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (136:4)
+  134 | 
+  135 |     // called every frame
+> 136 |     update: function (dt) {
+      |     ^
+  137 | 
+  138 |     },
+  139 | });
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T08:46:30.786Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (136:4)
+  134 | 
+  135 |     // called every frame
+> 136 |     update: function (dt) {
+      |     ^
+  137 | 
+  138 |     },
+  139 | });
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T08:55:20.773Z - error: Please define 'type' parameter of gestureTool.gestureAction_A as the constructor of [object Object].
+    at Object.errorID (D:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at parseAttributes (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:1138:28)
+    at defineProp (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:147:17)
+    at declareProperties (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:812:17)
+    at Object.CCClass [as Class] (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:947:9)
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:12:4)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:148:11)
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:151:3)
+2018-07-27T08:55:31.704Z - error: Please define 'type' parameter of gestureTool.gestureAction_A as the constructor of [object Object].
+    at Object.errorID (D:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at parseAttributes (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:1138:28)
+    at defineProp (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:147:17)
+    at declareProperties (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:812:17)
+    at Object.CCClass [as Class] (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:947:9)
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:12:4)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:148:11)
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:151:3)
+2018-07-27T08:56:21.989Z - error: Please define 'type' parameter of gestureTool.gestureAction_A as the constructor of [object Object].
+    at Object.errorID (D:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at parseAttributes (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:1138:28)
+    at defineProp (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:147:17)
+    at declareProperties (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:812:17)
+    at Object.CCClass [as Class] (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:947:9)
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:12:4)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:148:11)
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:151:3)
+2018-07-27T08:56:28.357Z - error: Please define 'type' parameter of gestureTool.gestureAction_A as the constructor of [object Object].
+    at Object.errorID (D:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at parseAttributes (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:1138:28)
+    at defineProp (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:147:17)
+    at declareProperties (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:812:17)
+    at Object.CCClass [as Class] (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:947:9)
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:12:4)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:148:11)
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:151:3)
+2018-07-27T08:57:52.059Z - failed: load script [GestureAction_A.ts] failed : Error: Cannot find module 'GestureAction_A.ts'
     at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (H:\CocosCreator\resources\electron.asar\common\reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (H:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:1361)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\CocosCreator\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (D:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:1361)
     at Function.Module._load (module.js:418:25)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-    at Object.cc.require (H:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:967)
-    at H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:1:361
-    at __define (H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:7:24)
-    at H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:93:13
-2018-07-22T09:19:25.907Z - failed: load script [H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js] failed : TypeError: DollarRecognizer is not a constructor
-    at __define (H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:8:15)
-    at H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:93:13
-    at Object.<anonymous> (H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:100:11)
-    at Object.<anonymous> (H:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:103:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
+    at Object.cc.require (D:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:967)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:1:361
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:10:23)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+2018-07-27T08:57:52.188Z - warn: The 'type' attribute of 'gestureTool.gestureAction_A' is undefined when loading script
+2018-07-27T08:58:05.065Z - failed: load script [GestureAction_A.ts] failed : Error: Cannot find module 'GestureAction_A.ts'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\CocosCreator\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (D:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
     at Module.require (module.js:498:17)
-2018-07-22T09:21:19.371Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
-Class ID: "280c3rsZJJKnZ9RqbALVwtK"
-
-2018-07-22T09:21:19.375Z - warn: The Label referenced by component "cc.MissingScript" is invalid. Detailed information:
-Node path: "Canvas"
-
-2018-07-22T09:21:51.346Z - warn: Script attached to "Canvas" in scene "mainScene.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scene/mainScene.fire"
-Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
-Class ID: "280c3rsZJJKnZ9RqbALVwtK"
-
-2018-07-22T10:14:06.906Z - info: shutdown preview server
+    at require (internal/module.js:20:19)
+    at Object.cc.require (D:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:967)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:1:361
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:10:23)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+2018-07-27T08:58:05.065Z - warn: The 'type' attribute of 'gestureTool.gestureAction_A' is undefined when loading script
+2018-07-27T08:58:11.877Z - error: Please define 'type' parameter of gestureTool.gestureAction_A as the constructor of [object Object].
+    at Object.errorID (D:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at parseAttributes (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:1138:28)
+    at defineProp (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:147:17)
+    at declareProperties (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:812:17)
+    at Object.CCClass [as Class] (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:947:9)
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:12:4)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:148:11)
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:151:3)
+2018-07-27T08:58:19.812Z - error: Please define 'type' parameter of gestureTool.gestureAction_A as the constructor of [object Object].
+    at Object.errorID (D:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at parseAttributes (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:1138:28)
+    at defineProp (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:147:17)
+    at declareProperties (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:812:17)
+    at Object.CCClass [as Class] (D:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:947:9)
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:12:4)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:148:11)
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:151:3)
+2018-07-27T08:58:40.620Z - failed: load script [GestureAction_A] failed : Error: Cannot find module 'GestureAction_A'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\CocosCreator\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (D:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (D:\CocosCreator\resources\app.asar\editor\page\project-scripts.js:1:967)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:1:361
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:10:22)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Script\Gesture\gestureTool.js:141:13
+2018-07-27T08:58:40.621Z - warn: The 'type' attribute of 'gestureTool.gestureActionA' is undefined when loading script
+2018-07-27T08:59:41.844Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\GestureAction_A.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/GestureAction_A.js: Unexpected token, expected , (15:30)
+  13 | 
+  14 |     properties: {
+> 15 |         label: cc.Label = null;
+     |                               ^
+  16 |         // foo: {
+  17 |         //     // ATTRIBUTES:
+  18 |         //     default: null,        // The default value will be used only when the component attaching
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T09:00:46.893Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\GestureAction_A.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/GestureAction_A.js: Unexpected token, expected , (17:25)
+  15 |         label: {
+  16 |             default: null,
+> 17 |             type:cc.Label;
+     |                          ^
+  18 |         }
+  19 |         // foo: {
+  20 |         //     // ATTRIBUTES:
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T09:55:41.027Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (23:8)
+  21 |             type: cc.Label
+  22 |         }
+> 23 |         Graphics:{
+     |         ^
+  24 |             default: null,
+  25 |             type: cc.Graphics
+  26 |         }
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T09:55:58.266Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (23:8)
+  21 |             type: cc.Label
+  22 |         }
+> 23 |         Graphics:{
+     |         ^
+  24 |             default: null,
+  25 |             type: cc.Graphics
+  26 |         }
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T09:56:45.555Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (23:8)
+  21 |             type: cc.Label
+  22 |         }
+> 23 |         Graphics:{
+     |         ^
+  24 |             default: null,
+  25 |             type: cc.Graphics
+  26 |         }
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T09:57:07.778Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (23:8)
+  21 |             type: cc.Label
+  22 |         }
+> 23 |         myGraphics:{
+     |         ^
+  24 |             default: null,
+  25 |             type: cc.Graphics
+  26 |         }
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T10:01:08.186Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (23:8)
+  21 |             type: cc.Label
+  22 |         }
+> 23 |         myGraphics:{
+     |         ^
+  24 |             default: null,
+  25 |             type: cc.Graphics
+  26 |         }
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T10:01:17.939Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (23:8)
+  21 |             type: cc.Label
+  22 |         }
+> 23 |         myGraphics:{
+     |         ^
+  24 |             default: null,
+  25 |             type: cc.Node
+  26 |         }
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-27T10:09:56.343Z - info: shutdown preview server
