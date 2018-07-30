@@ -1,197 +1,67 @@
-2018-07-30T01:56:58.394Z - normal: Load ~/.CocosCreator/settings.json
-2018-07-30T01:56:58.407Z - normal: checking language setting...
-2018-07-30T01:56:58.408Z - normal: Language: zh
-2018-07-30T01:57:02.773Z - success: protocol editor-framework registered
-2018-07-30T01:57:02.773Z - success: protocol app registered
-2018-07-30T01:57:02.773Z - success: protocol theme registered
-2018-07-30T01:57:02.773Z - success: protocol packages registered
-2018-07-30T01:57:02.774Z - success: protocol unpack registerred
-2018-07-30T01:57:02.774Z - success: protocol disable-commonjs registerred
-2018-07-30T01:57:02.875Z - normal: connected!
-2018-07-30T01:57:02.879Z - normal: Check project D:\GitHub\MyProject
-2018-07-30T01:57:02.883Z - normal: Initializing Cocos2d
-2018-07-30T01:57:04.571Z - normal: Initializing Asset Database
-2018-07-30T01:57:04.657Z - success: protocol uuid registerred
-2018-07-30T01:57:04.657Z - success: protocol db registerred
-2018-07-30T01:57:04.657Z - success: protocol thumbnail registerred
-2018-07-30T01:57:04.673Z - normal: Loading editor/builtin packages
-2018-07-30T01:57:04.752Z - success: anysdk loaded
-2018-07-30T01:57:04.952Z - success: assets loaded
-2018-07-30T01:57:04.954Z - success: builder loaded
-2018-07-30T01:57:04.957Z - success: cocos-analytics loaded
-2018-07-30T01:57:04.962Z - success: console loaded
-2018-07-30T01:57:05.015Z - success: fb-instant-games loaded
-2018-07-30T01:57:05.020Z - success: hierarchy loaded
-2018-07-30T01:57:05.025Z - success: inspector loaded
-2018-07-30T01:57:05.028Z - success: keystore loaded
-2018-07-30T01:57:05.032Z - success: node-library loaded
-2018-07-30T01:57:05.035Z - success: package-asset loaded
-2018-07-30T01:57:05.040Z - success: preferences loaded
-2018-07-30T01:57:05.043Z - success: project-exporter loaded
-2018-07-30T01:57:05.084Z - success: project-importer loaded
-2018-07-30T01:57:05.087Z - success: project-settings loaded
-2018-07-30T01:57:05.090Z - success: ui-kit loaded
-2018-07-30T01:57:05.104Z - success: ui-grid loaded
-2018-07-30T01:57:05.110Z - success: scene loaded
-2018-07-30T01:57:05.111Z - success: sprite-editor loaded
-2018-07-30T01:57:05.115Z - success: store loaded
-2018-07-30T01:57:05.121Z - success: timeline loaded
-2018-07-30T01:57:05.121Z - normal: Loading builtin packages
-2018-07-30T01:57:05.131Z - success: asset-db-debugger loaded
-2018-07-30T01:57:05.133Z - success: code-editor loaded
-2018-07-30T01:57:05.148Z - success: color-picker loaded
-2018-07-30T01:57:05.151Z - success: package-manager loaded
-2018-07-30T01:57:05.158Z - success: sdkbox loaded
-2018-07-30T01:57:05.161Z - success: tester loaded
-2018-07-30T01:57:05.163Z - success: ui-kit-preview-extra loaded
-2018-07-30T01:57:05.165Z - success: ui-kit-preview loaded
-2018-07-30T01:57:05.167Z - success: ui-tree loaded
-2018-07-30T01:57:07.079Z - normal: Initializing project D:\GitHub\MyProject
-2018-07-30T01:57:07.095Z - normal: Loading packages
-2018-07-30T01:57:07.102Z - normal: Watching packages
-2018-07-30T01:57:07.214Z - normal: Run Application
-2018-07-30T01:57:09.729Z - success: preview server running at http://localhost:7456
-2018-07-30T01:57:18.845Z - normal: 1.9.1
-2018-07-30T02:32:22.290Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (28:8)
-  26 |             type: cc.Graphics
-  27 |         }
-> 28 |         myHero:{
-     |         ^
-  29 |             default: null,
-  30 |             type: Hero
-  31 |         }
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-07-30T02:35:06.383Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:14095
-2018-07-30T02:43:46.108Z - warn: Key frame already exists
-2018-07-30T02:43:46.113Z - warn: Key frame already exists
-2018-07-30T02:50:05.556Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (28:8)
-  26 |             type: cc.Graphics
-  27 |         }
-> 28 |         myHero:{
-     |         ^
-  29 |             default: null,
-  30 |             type: Hero
-  31 |         }
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-07-30T02:50:05.825Z - normal: Introduced global variable while editing: i
-2018-07-30T02:50:05.826Z - normal: Introduced global variable while editing: l
-2018-07-30T02:50:53.501Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (28:8)
-  26 |             type: cc.Graphics
-  27 |         }
-> 28 |         myHero:{
-     |         ^
-  29 |             default: null,
-  30 |             type: Hero
-  31 |         }
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-07-30T02:51:00.404Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (28:8)
-  26 |             type: cc.Graphics
-  27 |         }
-> 28 |         myHero:{
-     |         ^
-  29 |             default: null,
-  30 |             type: Hero
-  31 |         }
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-07-30T02:51:38.728Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/Gesture/gestureTool.js: Unexpected token, expected , (28:8)
-  26 |             type: cc.Graphics
-  27 |         }
-> 28 |         myHero:{
-     |         ^
-  29 |             default: null,
-  30 |             type: Hero
-  31 |         }
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-07-30T02:52:45.397Z - error: Can not find import path [D:\GitHub\MyProject\library\imports\2a\2ab107b7-f555-43ce-a629-9fd5d0da5177.js]
-    at Async.each (D:\CocosCreator\resources\app.asar\editor\core\quick-compiler.js:1:5125)
-    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
-    at Object.async.forEachOf.async.eachOf (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
-    at Object.async.forEach.async.each (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
-    at Object._compileScripts (D:\CocosCreator\resources\app.asar\editor\core\quick-compiler.js:1:4988)
-    at complete (D:\CocosCreator\resources\app.asar\node_modules\lodash\lodash.js:8460:25)
-    at Timeout.delayed [as _onTimeout] (D:\CocosCreator\resources\app.asar\node_modules\lodash\lodash.js:8470:11)
-    at ontimeout (timers.js:386:14)
-    at tryOnTimeout (timers.js:250:5)
-2018-07-30T02:53:22.904Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Script\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Script/gestureTool.js: Unexpected token, expected , (28:8)
-  26 |             type: cc.Graphics
-  27 |         }
-> 28 |         myHero:{
-     |         ^
-  29 |             default: null,
-  30 |             type: Hero
-  31 |         }
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-07-30T03:01:51.755Z - normal: Introduced global variable while editing: i
-2018-07-30T03:01:51.757Z - normal: Introduced global variable while editing: l
-2018-07-30T03:26:52.520Z - failed: [db-task][sync-changes] Failed to import asset D:\GitHub\MyProject\assets\Scripts\Gesture\gestureTool.js, message: Compile error: SyntaxError: D:/GitHub/MyProject/assets/Scripts/Gesture/gestureTool.js: Unexpected token, expected , (49:4)
-  47 | 
-  48 |     //事件监听
-> 49 |     setEventControl: function(){
-     |     ^
-  50 |         var self = this;
-  51 |         cc.eventManager.addListener({
-  52 |         event: cc.EventListener.TOUCH_ONE_BY_ONE,
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-07-30T06:05:13.912Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-30T06:05:13.921Z - normal: checking language setting...
+2018-07-30T06:05:13.922Z - normal: Language: zh
+2018-07-30T06:05:16.299Z - success: protocol editor-framework registered
+2018-07-30T06:05:16.299Z - success: protocol app registered
+2018-07-30T06:05:16.299Z - success: protocol theme registered
+2018-07-30T06:05:16.299Z - success: protocol packages registered
+2018-07-30T06:05:16.299Z - success: protocol unpack registerred
+2018-07-30T06:05:16.299Z - success: protocol disable-commonjs registerred
+2018-07-30T06:05:16.521Z - normal: connected!
+2018-07-30T06:05:16.523Z - normal: Check project D:\GitHub\MyProject
+2018-07-30T06:05:16.526Z - normal: Initializing Cocos2d
+2018-07-30T06:05:16.908Z - normal: Initializing Asset Database
+2018-07-30T06:05:16.958Z - success: protocol uuid registerred
+2018-07-30T06:05:16.958Z - success: protocol db registerred
+2018-07-30T06:05:16.959Z - success: protocol thumbnail registerred
+2018-07-30T06:05:16.959Z - normal: Loading editor/builtin packages
+2018-07-30T06:05:16.984Z - success: anysdk loaded
+2018-07-30T06:05:17.134Z - success: assets loaded
+2018-07-30T06:05:17.138Z - success: builder loaded
+2018-07-30T06:05:17.141Z - success: cocos-analytics loaded
+2018-07-30T06:05:17.146Z - success: console loaded
+2018-07-30T06:05:17.194Z - success: fb-instant-games loaded
+2018-07-30T06:05:17.199Z - success: hierarchy loaded
+2018-07-30T06:05:17.202Z - success: inspector loaded
+2018-07-30T06:05:17.204Z - success: keystore loaded
+2018-07-30T06:05:17.208Z - success: node-library loaded
+2018-07-30T06:05:17.210Z - success: package-asset loaded
+2018-07-30T06:05:17.213Z - success: preferences loaded
+2018-07-30T06:05:17.214Z - success: project-exporter loaded
+2018-07-30T06:05:17.234Z - success: project-importer loaded
+2018-07-30T06:05:17.236Z - success: project-settings loaded
+2018-07-30T06:05:17.239Z - success: ui-kit loaded
+2018-07-30T06:05:17.240Z - success: ui-grid loaded
+2018-07-30T06:05:17.244Z - success: scene loaded
+2018-07-30T06:05:17.245Z - success: sprite-editor loaded
+2018-07-30T06:05:17.248Z - success: store loaded
+2018-07-30T06:05:17.254Z - success: timeline loaded
+2018-07-30T06:05:17.254Z - normal: Loading builtin packages
+2018-07-30T06:05:17.257Z - success: asset-db-debugger loaded
+2018-07-30T06:05:17.258Z - success: code-editor loaded
+2018-07-30T06:05:17.259Z - success: color-picker loaded
+2018-07-30T06:05:17.262Z - success: package-manager loaded
+2018-07-30T06:05:17.271Z - success: sdkbox loaded
+2018-07-30T06:05:17.274Z - success: tester loaded
+2018-07-30T06:05:17.276Z - success: ui-kit-preview-extra loaded
+2018-07-30T06:05:17.278Z - success: ui-kit-preview loaded
+2018-07-30T06:05:17.279Z - success: ui-tree loaded
+2018-07-30T06:05:18.620Z - normal: Initializing project D:\GitHub\MyProject
+2018-07-30T06:05:18.631Z - normal: Loading packages
+2018-07-30T06:05:18.637Z - normal: Watching packages
+2018-07-30T06:05:18.652Z - normal: Run Application
+2018-07-30T06:05:19.452Z - success: preview server running at http://localhost:7456
+2018-07-30T06:05:26.285Z - normal: 1.9.1
+2018-07-30T06:14:46.433Z - warn: 当前元素已经存在
+2018-07-30T06:34:14.632Z - failed: load script [D:\GitHub\MyProject\temp\quick-scripts\assets\Scripts\Gesture\gestureTool.js] failed : ReferenceError: Hero is not defined
+    at __define (D:\GitHub\MyProject\temp\quick-scripts\assets\Scripts\Gesture\gestureTool.js:35:19)
+    at D:\GitHub\MyProject\temp\quick-scripts\assets\Scripts\Gesture\gestureTool.js:155:13
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Scripts\Gesture\gestureTool.js:162:11)
+    at Object.<anonymous> (D:\GitHub\MyProject\temp\quick-scripts\assets\Scripts\Gesture\gestureTool.js:165:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-07-30T06:49:43.445Z - info: shutdown preview server

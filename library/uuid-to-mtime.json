@@ -45,12 +45,12 @@
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1532919228400,
+    "asset": 1532919286595,
     "meta": 1532306703598,
     "relativePath": "Scripts"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1532678984698,
+    "asset": 1532916924825,
     "meta": 1532306704119,
     "relativePath": "Texture"
   },
@@ -110,8 +110,8 @@
     "relativePath": "Scripts\\Gesture\\gestureHelp.js"
   },
   "49c1157b-3006-4dfa-b7e9-f947eb6d58b9": {
-    "asset": 1532922407049,
-    "meta": 1532922407094,
+    "asset": 1532933380193,
+    "meta": 1532933380230,
     "relativePath": "Scene\\mainScene.fire"
   },
   "e2416683-7cc7-414a-b139-19e90f3bb8b7": {
@@ -140,17 +140,17 @@
     "relativePath": "Texture\\icon_frame_purple.png"
   },
   "7eedbaea-dca0-43aa-89cf-3c8f5b2ee2b5": {
-    "asset": 1532916920733,
+    "asset": 1532916948541,
     "meta": 1532916920737,
     "relativePath": "Texture\\Main"
   },
   "0a54c83c-05a3-4bd3-b5f9-eaf2be3158e5": {
-    "asset": 1532916935921,
+    "asset": 1532917098008,
     "meta": 1532916935925,
     "relativePath": "Texture\\Main\\enemy"
   },
   "0d2c0f34-84c2-40fb-a8b5-41e5fadc0e99": {
-    "asset": 1532916939199,
+    "asset": 1532920439452,
     "meta": 1532916939203,
     "relativePath": "Texture\\Main\\hero"
   },
@@ -170,12 +170,12 @@
     "relativePath": "Texture\\Main\\hero\\heroAttack.anim"
   },
   "431f037e-d189-4d67-89c5-8760fe428173": {
-    "asset": 1532919228398,
+    "asset": 1532920220241,
     "meta": 1532919228400,
     "relativePath": "Scripts\\Gesture"
   },
   "9d96a491-475b-4e6b-b62f-284cd0d8f7b2": {
-    "asset": 1532919282398,
+    "asset": 1532920220241,
     "meta": 1532919282400,
     "relativePath": "Scripts\\Battle"
   },
@@ -369,9 +369,14 @@
     "meta": 1532921077960,
     "relativePath": "Scripts\\Battle\\Hero.js"
   },
+  "fa922244-86f2-4d86-90f7-10e28260a775": {
+    "asset": 1532931435490,
+    "meta": 1532931435854,
+    "relativePath": "Texture\\InfoHeader\\loading_bar.png"
+  },
   "2ab107b7-f555-43ce-a629-9fd5d0da5177": {
-    "asset": 1532922311702,
-    "meta": 1532922316338,
+    "asset": 1532932459775,
+    "meta": 1532932461426,
     "relativePath": "Scripts\\Gesture\\gestureTool.js"
   }
 }
