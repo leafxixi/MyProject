@@ -1,11 +1,12 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Script/Gesture/gestureTool.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Scripts/Gesture/gestureTool.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
 cc._RF.push(module, '2ab10e39VVDzqYpn9XQ2lF3', 'gestureTool', __filename);
-// Script/Gesture/gestureTool.js
+// Scripts/Gesture/gestureTool.js
 
 "use strict";
 
 var DollarRecognizer = require("gestureHelp");
 var gesture = new DollarRecognizer();
+var Hero = require("Hero");
 
 cc.Class({
     extends: cc.Component,
@@ -29,6 +30,10 @@ cc.Class({
         myGraphics: {
             default: null,
             type: cc.Graphics
+        },
+        myHero: {
+            default: null,
+            type: Hero
         }
     },
 
@@ -42,8 +47,9 @@ cc.Class({
         var gestureAction_B = this.GestureAction_B;
         var gestureAction_C = this.GestureAction_C;
 
-        var gestureActionCount = 0;
+        var hero = this.myHero;
 
+        var gestureActionCount = 0;
         cc.eventManager.addListener({
             event: cc.EventListener.TOUCH_ONE_BY_ONE,
             swallowTouches: true,
@@ -120,6 +126,10 @@ cc.Class({
                             gestureAction_C.string = res;
                             break;
                     }
+                    if (gestureActionCount == 3) {
+                        // cc.log("attack!! & " + hero);
+                        hero.attack();
+                    }
                 }
             }
 
@@ -132,8 +142,9 @@ cc.Class({
         this.setEventControl();
     },
 
-    start: function start() {},
+    // start () {
 
+    // },
 
     // called every frame
     update: function update(dt) {}

@@ -1,5 +1,6 @@
 var DollarRecognizer = require("gestureHelp");
 var gesture = new DollarRecognizer();
+var Hero = require("Hero");
 
 cc.Class({
     extends: cc.Component,
@@ -23,6 +24,10 @@ cc.Class({
         myGraphics:{
             default: null,
             type: cc.Graphics
+        },
+        myHero:{
+            default: null,
+            type: Hero
         }
     },
 
@@ -37,8 +42,9 @@ cc.Class({
         var gestureAction_B = this.GestureAction_B;
         var gestureAction_C = this.GestureAction_C;
 
-        var gestureActionCount = 0;
+        var hero = this.myHero;
 
+        var gestureActionCount = 0;
         cc.eventManager.addListener({
         event: cc.EventListener.TOUCH_ONE_BY_ONE,
             swallowTouches: true,
@@ -48,7 +54,7 @@ cc.Class({
                     gestureActionCount = 0;
                     gestureAction_A.string = "";
                     gestureAction_B.string = "";
-                    gestureAction_C.string = "";
+                    gestureAction_C.string = "";                    
                 }
                 //实现 onTouchBegan 事件回调函数
                 var target = event.getCurrentTarget();
@@ -116,6 +122,10 @@ cc.Class({
                             gestureAction_C.string = res;
                             break;
                     }
+                    if (gestureActionCount == 3){
+                        // cc.log("attack!! & " + hero);
+                        hero.attack();
+                    }
 
                 }
             }
@@ -125,14 +135,15 @@ cc.Class({
     // use this for initialization
     onLoad: function () {
 
+
         //触摸监听
         this.setEventControl();
 
     },
 
-    start () {
+    // start () {
 
-    },
+    // },
 
     // called every frame
     update: function (dt) {
